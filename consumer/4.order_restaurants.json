@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "<HOST>/orders/<ORDER_ID>/restaunant?page=2"
+        },
+        "prev": {
+            "href": "<HOST>/orders/<ORDER_ID>/restaunant?page=1"
+        },
+        "next": {
+            "href": "<HOST>/orders/<ORDER_ID>/restaunant?page=3"
+        }
+    },
+    "_embedded": {
+        "restaurants":[
+            {
+                "id":"1",
+                "name": "",
+                "introduction":"",
+                "amount": 2000,
+                "features":[],
+                "rank": 5,
+                "image":"http://xxxx"
+
+            },
+            {
+                "id":"2",
+                "name": "",
+                "introduction":"",
+                "amount": 3000,
+                "features":[],
+                "rank": 4,
+                "image":"http://xxxx"
+
+            }
+        ]
+    }
+}

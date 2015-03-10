@@ -1,0 +1,68 @@
+{
+    "_links": {
+        "self": {
+            "href": "<HOST>/orders/12345"
+        }
+    },
+    "_embedded": {
+        "order":{
+            "id":"1",
+            "date_of_meeting":"2015-05-01 20:00:00",
+            "number_of_friends":10,
+            "options":{
+                "category":"川菜",
+                "est_amount": "2000",
+                "level":"经济型",
+                "features":["鱼","排骨","麻辣"]
+            },
+            "requirements":{
+                "parking":true,
+                "high_chair":true
+            },        
+            "comment":"麻烦给我安排一个靠窗的座位",
+            "responses":{
+                "count":5
+        },
+        "responses": [
+            {
+                "id":"1",
+                "time_of_reply":"2015-05-01 20:00:00",
+                "options":{
+                    "category":"川菜",
+                    "est_amount": "2000",
+                    "level":"经济型",
+                    "features":["鱼","排骨","麻辣"]
+                },
+                "requirements":{
+                    "parking":true,
+                    "high_chair":true
+                },        
+                "comment":"麻烦给我安排一个靠窗的座位"
+                "responses":{
+                    "count":5
+                }
+            },
+            {
+                "id":"4",
+                "date_of_meeting":"2015-10-01 12:00:00",
+                "number_of_friends":15,
+                "options":{
+                    "category":"粤菜",
+                    "est_amount": "5000",
+                    "level":"奢侈型",
+                    "features":[]
+                },
+                "requirements":{
+                    "parking":true,
+                    "high_chair":true
+                },        
+                "comment":"",
+                "responses":{
+                    "count":5
+                }
+
+            }
+
+        ]
+    }
+}

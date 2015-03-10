@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "self": {
+            "href": "<HOST>/restaurant/<ID>/plates/?page=2"
+        },
+        "prev": {
+            "href": "<HOST>/restaurant/<ID>/plates/?page=1"
+        },
+        "next": {
+            "href": "<HOST>/restaurant/<ID>/plates/?page=3"
+        }
+    },
+    "_embedded": {
+        "plates": [
+            {
+                "id":"1",
+                "name":"",
+                "introduction":
+            },
+            {
+                "id":"2",
+                "name":"",
+                "introduction":
+            },
+        ]
+    }
+}

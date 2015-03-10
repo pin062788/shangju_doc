@@ -1,0 +1,51 @@
+{
+    "_links": {
+        "self": {
+            "href": "<HOST>/order/<ORDER_ID>/restaunant/<RESTAURANT_ID>"
+        }
+    },
+    "_embedded": {
+        "restaurant":{
+            "id":"1",
+            "name": "",
+            "introduction":"",
+            "rank": 5,
+            "images":[
+                {"href":"http://aaa.img"},
+                {"href":"http://bbb.img"}
+                {"href":"http://ccc.img"}
+            ],
+            "geo":{"latitude":1.2333434,
+                   "longitude":1.22222
+            }
+        },
+
+        "package":{
+            "id":1,
+            "introduction":"",
+            "feature":[],
+            "total_price":5000,
+
+            "items":[
+                { "id":1,
+                  "name":"鱼香肉丝",
+                  "features":[],
+                  "image":"http://xxxx",
+                  "price":16.80
+                },
+                { "id":2,
+                  "name":"红烧排骨",
+                  "features":[],
+                  "image":"http://xxxx",
+                  "price":16.80
+                },
+                { "id":1,
+                  "name":"剁椒鱼头",
+                  "features":[],
+                  "image":"http://xxxx",
+                  "price":16.80
+                },
+            ]
+        },
+    }
+}
